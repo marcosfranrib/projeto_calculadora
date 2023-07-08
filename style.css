@@ -23,7 +23,8 @@ body{
 #calculadora{
     background-color:#252424;
     height: 426px;
-    width: 300px;
+    width: 310px;
+    border-radius: 5px;
 }
 
 #titulo{
@@ -60,13 +61,11 @@ body{
     -webkit-appearance: none;
 }
 
-
-
 #botoesGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2px;
-    padding: 3px;
+    padding: 4px;
 }
 
 .espaco{
