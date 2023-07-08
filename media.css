@@ -1,8 +1,19 @@
 @charset "utf-8";
 
 @media screen and (max-width:480px) {
-    body{
-        background-color: black;
+   
+    #calculadora{
+        height: 500px;
+        width: 350px;
+        margin-top: -20%;
+        background-color: #000000e1;
     }
-    
+
+    #tela{
+        background-color: #00000000;
+    }
+   
+    button{
+        height: 58px;
+    }
 }
