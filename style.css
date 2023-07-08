@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(255, 224, 184);
+    background-color: #ffe0b8;
     overflow: hidden;
 }
 
@@ -25,6 +25,10 @@ body{
     height: 426px;
     width: 310px;
     border-radius: 5px;
+
+    /*shorthand: horizontal, vertical, 
+    blur, spread e color*/
+    box-shadow: 2px 3px 4px 3px #00000079;
 }
 
 #titulo{
