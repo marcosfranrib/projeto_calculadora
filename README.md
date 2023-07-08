@@ -1,2 +1,2 @@
-# projeto_calculadora
- Calculadora com HTML e CSS (javascript a ser incremetado)
+# Calculadora Virtual
+ Criado com HTML e CSS (javascript a ser incremetado)
