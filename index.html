@@ -17,7 +17,8 @@
           <header>
             
             <section id="titulo"><img src="imagens/calc.svg" alt="">Calculadora</section>
-            <input type="number" name="" id="tela" >
+            
+            <input type="number" name="tela" id="tela" value="0">
           
           
           </header>           
@@ -34,17 +35,20 @@
              <button class="num">7</button>
              <button class="num">8</button>
              <button class="num">9</button>
+            
              <button class="material-symbols-outlined">close</button>
              
              <button class="num">4</button>
              <button class="num">5</button>
              <button class="num">6</button>
+             
              <button class="material-symbols-outlined">remove</button>   
 
-             <button class="num">1</button>
-             <button class="num">2</button>
-             <button class="num">3</button>
-             <button class="material-symbols-outlined">add</button>  
+             <button class="num" onclick="tecla()">1</button>
+             <button class="num" onclick="tecla()">2</button>
+             <button class="num" onclick="tecla()">3</button>
+             
+             <button class="material-symbols-outlined" id="adicao" onclick="somar()">add</button>  
             
              <button class="espaco zero">0</button>
              <button>.</button>
@@ -56,6 +60,30 @@
         </div>
 
     </section>
+
+    <script>
+
+      function tecla(){
+       
+
+        
+      
+      }
+
+     /* function somar(){
+            var num1 = document.getElementById('1')
+            var num2 = document.getElementById('2')
+            var res = document.getElementById('tela')
+
+            var n1 = Number(num1.innerHTML)
+            var n2 = Number(num2.innerHTML)
+          
+            var soma = n1 + n2
+            res.value = soma
+      }*/
+
+
+    </script>
 
 </body>
 </html>
