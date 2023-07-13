@@ -34,7 +34,7 @@ body{
 #titulo{
 
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     border-top: 1px solid;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -43,15 +43,22 @@ body{
     font-size: x-large;
 }
 
+#historico{
+    padding-right: 10px;
+    height: 22px;
+    text-align: right;
+    margin-top: 30px;
+}
+
 #tela{
-    margin-top: 40px;
+  
     padding-right: 10px;
     border: none;
     text-align: right;
     background-color:#252424;
     color: white;
     font-size: 50px;
-    height:100px;
+    height:77px;
     width: 100%;
 }
 
@@ -84,7 +91,7 @@ body{
 
 button{
     background-color: #3d3b3b;
-    height: 44px;
+    height: 45px;
     border: none;
     border-radius: 5px;
     font-size: large;

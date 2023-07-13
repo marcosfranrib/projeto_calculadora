@@ -18,41 +18,41 @@
           <header>
             
             <section id="titulo"><img src="imagens/calc.svg" alt="">Calculadora</section>
-            
+            <div id="historico"></div>
             <input type="number" name="tela" id="tela" placeholder="0">
           
           </header>           
          
           <main id="botoesGrid">
                          
-             <button class="espaco">C</button>
+             <button class="espaco" onclick="limpar()">C</button>
              <button>%</button> 
              <button>
                 <span class="material-symbols-outlined">
                 backspace</span>
             </button>
              
-             <button class="num">7</button>
-             <button class="num">8</button>
-             <button class="num">9</button>
+             <button class="num" onclick="clicar('7')">7</button>
+             <button class="num" onclick="clicar('8')">8</button>
+             <button class="num" onclick="clicar('9')">9</button>
             
              <button class="material-symbols-outlined">close</button>
              
-             <button class="num">4</button>
-             <button class="num">5</button>
-             <button class="num">6</button>
+             <button class="num" onclick="clicar('4')">4</button>
+             <button class="num" onclick="clicar('5')">5</button>
+             <button class="num" onclick="clicar('6')">6</button>
              
              <button class="material-symbols-outlined">remove</button>   
 
-             <button class="num um" onclick="clicar()">1</button>
-             <button class="num dois" onclick="clicar2()">2</button>
-             <button class="num">3</button>
+             <button class="num" onclick="clicar('1')">1</button>
+             <button class="num" onclick="clicar('2')">2</button>
+             <button class="num" onclick="clicar('3')">3</button>
              
-             <button class="material-symbols-outlined" id="adicao">add</button>  
+             <button class="material-symbols-outlined" id="adicao" onclick="somar()">add</button>  
             
-             <button class="espaco zero">0</button>
+             <button class="espaco zero" onclick="clicar('0')">0</button>
              <button>.</button>
-             <button class="resultado">=</button>
+             <button class="resultado" onclick="resultado()">=</button>
              <button>/</button>
        
           </main>
