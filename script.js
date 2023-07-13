@@ -1,4 +1,5 @@
 function clicar(num){
+    
     var tela = document.getElementById('tela')
     tela.value += num
 
@@ -9,6 +10,11 @@ function limpar(){
     var history = document.getElementById('historico')
     tela.value =''
     history.innerHTML = ''
+}
+
+function backspace(){
+    var tela = document.getElementById('tela')
+    tela.innerHTML = tela.innerHTML -1
 }
 
 //quando apertar o botão de somar, armazenar em uma outra variavel
