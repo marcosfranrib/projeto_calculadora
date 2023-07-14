@@ -18,8 +18,8 @@
           <header>
             
             <section id="titulo"><img src="imagens/calc.svg" alt="">Calculadora</section>
-            <div id="historico"></div>
-            <input type="text" name="tela" id="tela" placeholder="0">
+
+            <input type="text" id="tela" placeholder="0">
           
           </header>           
          
@@ -36,13 +36,13 @@
              <button class="num" onclick="clicar(8)">8</button>
              <button class="num" onclick="clicar(9)">9</button>
             
-             <button class="material-symbols-outlined">close</button>
+             <button class="material-symbols-outlined" name="multi" onclick="clicar('*')">close</button>
              
              <button class="num" onclick="clicar(4)">4</button>
              <button class="num" onclick="clicar(5)">5</button>
              <button class="num" onclick="clicar(6)">6</button>
              
-             <button class="material-symbols-outlined" onclick="backspace()">remove</button>   
+             <button class="material-symbols-outlined" onclick="clicar('-')">remove</button>   
 
              <button class="num" onclick="clicar(1)">1</button>
              <button class="num" onclick="clicar(2)">2</button>
@@ -52,7 +52,7 @@
             
              <button class="espaco zero" onclick="clicar(0)">0</button>
              
-             <button>.</button>
+             <button onclick="clicar('.')">.</button>
             
              <button class="resultado" onclick="calculo()">=</button>
              <button>/</button>
