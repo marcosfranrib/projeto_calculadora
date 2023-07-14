@@ -12,29 +12,13 @@ function limpar(){
     history.innerHTML = ''
 }
 
+function calculo(){
+    let tela = document.getElementById('tela')
+    let tela2 = tela.value
+    tela.value = eval(tela)
+}
+
 function backspace(){
-    var tela = document.getElementById('tela')
-    tela.innerHTML = tela.innerHTML -1
+ 
 }
 
-//quando apertar o botão de somar, armazenar em uma outra variavel
-
-function somar(){
-    
-    var tela = document.getElementById('tela')
-    var history = document.getElementById('historico')
-    var n1 = Number(tela.value)
-
-    if(n1 != ''){
-        tela.value = ''
-        history.innerHTML += ` ${n1} +`
-    }
-
-    var n2 = Number(tela.value)
-
-    if(n2 != ''){
-        tela.value = ''
-        history.innerHTML += ` ${n2} +`
-    }
-
-}
