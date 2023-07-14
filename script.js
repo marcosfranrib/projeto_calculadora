@@ -1,8 +1,7 @@
 function clicar(num){
     
-    var tela = document.getElementById('tela')
+    let tela = document.getElementById('tela')
     tela.value += num
-
 }
 
 function limpar(){

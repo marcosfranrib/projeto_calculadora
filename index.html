@@ -26,7 +26,7 @@
           <main id="botoesGrid">
                          
              <button class="espaco" onclick="limpar()">C</button>
-             <button>%</button> 
+             <button onclick="clicar('%')">%</button> 
              <button>
                 <span class="material-symbols-outlined">
                 backspace</span>
@@ -36,26 +36,26 @@
              <button class="num" onclick="clicar(8)">8</button>
              <button class="num" onclick="clicar(9)">9</button>
             
-             <button class="material-symbols-outlined" name="multi" onclick="clicar('*')">close</button>
+             <button class="material-symbols-outlined" id="operador" onclick="clicar('*')">close</button>
              
              <button class="num" onclick="clicar(4)">4</button>
              <button class="num" onclick="clicar(5)">5</button>
              <button class="num" onclick="clicar(6)">6</button>
              
-             <button class="material-symbols-outlined" onclick="clicar('-')">remove</button>   
+             <button class="material-symbols-outlined" id="operador" onclick="clicar('-')">remove</button>   
 
              <button class="num" onclick="clicar(1)">1</button>
              <button class="num" onclick="clicar(2)">2</button>
              <button class="num" onclick="clicar(3)">3</button>
              
-             <button class="material-symbols-outlined" id="adicao" onclick="clicar('+')">add</button>  
+             <button class="material-symbols-outlined" id="operador" onclick="clicar('+')">add</button>  
             
              <button class="espaco zero" onclick="clicar(0)">0</button>
              
              <button onclick="clicar('.')">.</button>
             
              <button class="resultado" onclick="calculo()">=</button>
-             <button>/</button>
+             <button id="operador" onclick="clicar('/')">/</button>
        
           </main>
 
