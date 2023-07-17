@@ -1,2 +1,2 @@
 # Calculadora Virtual
- Criado com HTML e CSS (javascript a ser incremetado)
+ Criado com HTML, CSS e Javascript
