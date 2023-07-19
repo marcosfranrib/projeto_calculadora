@@ -24,6 +24,8 @@ function calculo(){
 }
 
 function backspace(){
- 
+    let tela = document.getElementById('tela')
+    tela.value 
+
 }
 
