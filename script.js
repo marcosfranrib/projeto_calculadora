@@ -59,10 +59,13 @@ function backspace(){
     
     }
     
-    if(tela.value.length <= 15 && tela.value.length >= 11 ){
-         tela.style.fontSize = '35px'
-    }else {
-        tela.style.fontSize ='50px'
+    if(tela.value.length < 11 ){
+         tela.style.fontSize = '50px'
+    }
+
+    if(tela.value.length < 15 && tela.value.length >= 11){
+        tela.style.fontSize = '35px'
+
     }
   
 }
