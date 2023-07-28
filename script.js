@@ -4,8 +4,11 @@ function clicar(num){
     
     let tela = document.getElementById('tela')
     tela.value += num
-
-    if(executado == true){
+ 
+    if(executado == true && num == '+' || num == '-' || num == '*' || num == '/'){
+        executado = false
+        
+    } else if(executado == true){
         tela.value = num
     }
 
