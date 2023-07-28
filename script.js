@@ -1,13 +1,27 @@
 let executado;
 
+
 function clicar(num){
     
     let tela = document.getElementById('tela')
     tela.value += num
- 
+
+    if(tela.value.length >= 11){
+        tela.style.fontSize = '35px'
+
+    }else if (tela.value.length < 11){
+        (tela.style.fontSize = '50px')
+
+    }
+    
+    if(tela.value.length >= 15){
+        tela.style.fontSize = '25px'
+
+    } 
+
     if(executado == true && num == '+' || num == '-' || num == '*' || num == '/'){
         executado = false
-        
+
     } else if(executado == true){
         tela.value = num
     }
@@ -19,6 +33,7 @@ function clicar(num){
 function limpar(){
     var tela = document.getElementById('tela')
     tela.value =''
+    tela.style.fontSize = '50px'
     
 }
 
@@ -42,6 +57,12 @@ function backspace(){
     
         tela.value = tela.value.slice(0,-1)
     
+    }
+    
+    if(tela.value.length <= 15 && tela.value.length >= 11 ){
+         tela.style.fontSize = '35px'
+    }else {
+        tela.style.fontSize ='50px'
     }
   
 }
